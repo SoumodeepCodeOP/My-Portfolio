@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Soumodeep Halder</title>
+<link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo">Soumodeep Halder</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Hello, I'm Soumodeep Halder</h1>
+  <p>A passionate Software developer and Cyber security enthuiasts.</p>
+  <a href="#projects" class="btn-primary">See My Work</a>
+</section>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <div class="about-photo">
+        <img src="C:\Users\soumo\OneDrive\Desktop\SH\SH2.jpg" alt="Your Photo">
+      </div>
+      <div class="about-text">
+        <p>Hello! I'm a dedicated web developer with expertise in building aesthetically pleasing, fast, and responsive web experiences. I enjoy working on creative projects and learning new technologies to push the boundaries of the web.</p>
+        <p>When I'm not coding, I love hiking, photography, and exploring new coffee shops.</p>
+      </div>
+    </div>
+  </section>
+  
+  <div class="timeline">
+    <div class="timeline-item left">
+      <div class="content">
+        <div class="degree">Indian Certificate of Secondary Education (ICSE)</div>
+        <div class="institution">Central Modern School, Baranagar</div>
+        <div class="duration">2018 - 2019</div>
+        <div class="duration">80.4%</div>
+        <div class="description"></div>
+      </div>
+    </div>
+    <div class="timeline-item right">
+      <div class="content">
+        <div class="degree">Indian School Certificate (ISC)</div>
+        <div class="institution">Central Modern School, Baranagar</div>
+        <div class="duration">2020 - 2021</div>
+        <div class="duration">86.75%</div>
+        <div class="description"></div>
+      </div>
+    </div>
+    <div class="timeline-item left">
+      <div class="content">
+        <div class="degree">Bachelor of Technology(B.Tech) in Computer Science and Engineering</div>
+        <div class="institution">Elitte College of Engineering, Sodepur</div>
+        <div class="duration">2021 - 2025</div>
+        <div class="duration">8.85(CGPA)</div>
+        <div class="description"></div>
+      </div>
+    </div>
+  </div>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="skill">
+        <h3>Java</h3>
+      </div>
+      <div class="skill">
+        <h3>Python</h3>
+      </div>
+      <div class="skill">
+        <h3>HTML5</h3>
+      </div>
+      <div class="skill">
+        <h3>CSS3</h3>
+      </div>
+      <div class="skill">
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill">
+        <h3>Ethical Hacking</h3>
+      </div>
+      <div class="skill">
+        <h3>Vulnerabilities Assessment</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" tabindex="0">
+        <img alt="Project One Screenshot" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-description">A responsive portfolio website showcasing my skills, projects, and contact information.</p>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">Demo</a>
+            <a href="#" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project Two Screenshot" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">TODO List</h3>
+          <p class="project-description">A modern to-do list and task manager app built with HTML and CSS</p>
+          <div class="project-links">
+            <a href="https://soumodeepcodeop.github.io/TO-DO_List/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/SoumodeepCodeOP/TO-DO_List" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project Three Screenshot" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Weather Dashboard</h3>
+          <p class="project-description">A weather forecast dashboard using OpenWeatherMap API with modern UI and animations.</p>
+          <div class="project-links">
+            <a href="https://lustrous-licorice-7493a4.netlify.app/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/SoumodeepCodeOP/Weather-Forecast" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project Four Screenshot" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj5oCrnfOxhP4KgxDKQkFPd7plzBOBH9woIQ&s" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Helmet Detection with traffic signalling</h3>
+          <p class="project-description">Detect helmet of the rider, if it has shows green signal else red signal.</p>
+          <div class="project-links">
+            <a href="https://github.com/SoumodeepCodeOP/Weather-Forecast" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project Five Screenshot" src="https://virtual-galaxy.netlify.app/img/milkyWay-Galaxy.jpg" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Virtual Galaxy</h3>
+          <p class="project-description">Detect helmet of the rider, if it has shows green signal else red signal.</p>
+          <div class="project-links">
+            <a href="https://virtual-galaxy.netlify.app/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/SoumodeepCodeOP/IBMSkillsBuild/tree/main" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project six Screenshot" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqlCWLbbki_Wo_oNW5XfmdU-U9gowJxJ6AAA&s" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">College Feedback</h3>
+          <p class="project-description">Giving Feedback on the College infrastructure, facilities, Cleanliness, Teachers, Staff.</p>
+          <div class="project-links">
+            <a href="https://github.com/SoumodeepCodeOP/College-Feedback" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project seven Screenshot" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUjtK_BxY11SBxR-Aevw0y5zWzOwd5YO2Ngw&s" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">AI Assistance</h3>
+          <p class="project-description">It has both speak or text input and can do most of the work.</p>
+          <div class="project-links">
+            <a href="https://github.com/SoumodeepCodeOP/AI-Assistance" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project eight Screenshot" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStEW4MISAdx0ks98OJieIbhspqzlPqfy87IA&s" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">QR Generator</h3>
+          <p class="project-description">A simple QR code generator using HTML, CSS, and JavaScript.</p>
+          <div class="project-links">
+            <a href="https://soumodeepcodeop.github.io/Create-QR/" target="_blank" rel="noopener">Demo</a>
+            <a href="https://github.com/SoumodeepCodeOP/Create-QR" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" tabindex="0">
+        <img alt="Project nine Screenshot" src="https://media.wavescdn.com/images/products/plugins/hero/emo-f2-filter.png?fit=max" class="project-image" />
+        <div class="project-content">
+          <h3 class="project-title">Dance Clone</h3>
+          <p class="project-description">A dance clone project using Python libraries.</p>
+          <div class="project-links">
+            <a href="https://github.com/SoumodeepCodeOP/Dance-Clone" target="_blank" rel="noopener">Source</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements-list">
+      <div class="achievement-card">
+        <h3 class="achievement-title">TCS Codevita<br> Season-12 <br>#TOP_2500</h3>
+        <p class="achievement-desc"> TCS CodeVita is a global programming competition designed to identify top coders around the world. </p>
+      </div>
+      <div class="achievement-card">
+        <h3 class="achievement-title">Leetcode 300+ problem solved</h3>
+        <p class="achievement-desc"><br>Proficiently solving problems with Java.</p>
+      </div>
+      <div class="achievement-card">
+        <h3 class="achievement-title">GATE 2025 CS #AIR_6777</h3>
+        <p class="achievement-desc"><br>I've secured 44.15/100, with GATE score of 503.</p>
+      </div>
+      <div class="achievement-card">
+        <h3 class="achievement-title">Certified Java Programmer</h3>
+        <p class="achievement-desc"><br>I received the certificate form NPTEL with a consolidated score of 84%.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm" novalidate>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required minlength="2" />
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Write your message here..." required minlength="10"></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <a href="https://www.linkedin.com/in/soumodeep-halder-68306a283/" target="_blank" rel="noopener"><i class="fa fa-linkedin" style="font-size:20px;color:rgb(245, 243, 243)" ></i></a>&nbsp&nbsp
+  <a href="https://www.instagram.com/soumodeep_03?igsh=MXVzMGw4bjF2YWp1Nw==" target="_blank" rel="noopener"><i class="fa fa-instagram" style="font-size:20px;color:rgb(245, 243, 243)" ></i></a>&nbsp&nbsp
+  <a href="mailto:somodeephalder36@gmail.com" target="_blank" rel="noopener"><i class="fa fa-envelope" style="font-size:20px;color:rgb(245, 243, 243)" ></i></a>&nbsp&nbsp
+  <a href="https://www.facebook.com/share/1AhkRRwT1r/" target="_blank" rel="noopener"><i class="fa fa-facebook" style="font-size:20px;color:rgb(245, 243, 243)" ></i></a>&nbsp&nbsp
+  <a href="https://github.com/SoumodeepCodeOP" target="_blank" rel="noopener"><i class="fa fa-github" style="font-size:20px;color:rgb(245, 243, 243)" ></i></a>
+  <br>
+  &copy; 2025 Soumodeep Halder. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
